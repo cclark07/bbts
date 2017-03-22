@@ -22,30 +22,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px;
-    background-color: #212121;
-    border: none; 
-}
-
-.btn {
-    background-color: rgba(33, 33, 33, .5);
-    border: 2px dotted rgba(155, 212, 245, .5);
-    color:  rgba(155, 212, 245, .5);
-    transition: all .3s ease-in-out;
-}
-
-.btn:hover {
-    background-color: rgba(33, 33, 33, 1);
-    border: 2px solid rgba(155, 212, 245, 1);
-    color:  rgba(155, 212, 245, 1);
-}
-
-.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
-    transition: color .3s ease-in; /* IE 10, Fx 16+, Op 12.1+ */
-}
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #9bd4f5;
+    font-size: 14px; 
 }
 
 .lead {
@@ -60,26 +37,12 @@ h6 {
     color: #f8f8f8;
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
-    position: relative;
-}
-
-.intro-header:after {
-  content: " ";
-  z-index: 10;
-  display: block;
-  position: absolute;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 .intro-message {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
-    z-index: 12;
 }
 
 .intro-message > h1 {
@@ -94,9 +57,8 @@ h6 {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.intro-message > h3 > a {
+.intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    color: #9bd4f5;
 }
 
 @media(max-width:767px) {
@@ -130,18 +92,15 @@ h6 {
     letter-spacing: 2px;
 }
 
-.content-section-dark {
+.content-section-a {
     padding: 50px 0;
-    background-color: #212121;
-    border-top: 1px solid #9bd4f5;
-    border-bottom: 1px solid #9bd4f5;
+    background-color: #f8f8f8;
 }
 
-.content-section-light {
+.content-section-b {
     padding: 50px 0;
-    background-color: #313131;
-    border-top: 1px solid #9bd4f5;
-    border-bottom: 1px solid #9bd4f5;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
 }
 
 .section-heading {
@@ -203,7 +162,7 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #212121;
+    background-color: #f8f8f8;
 }
 
 p.copyright {
